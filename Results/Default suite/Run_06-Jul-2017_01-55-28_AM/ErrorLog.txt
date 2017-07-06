@@ -1,0 +1,7 @@
+Started InternetExplorerDriver server (32-bit)
+2.39.0.0
+Listening on port 16717
+Jul 06, 2017 1:55:33 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Jul 06, 2017 1:55:37 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS

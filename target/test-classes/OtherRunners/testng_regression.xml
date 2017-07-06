@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="Regression" parallel="methods" thread-count="1">
+	<test name="Test">
+		<classes>
+			<class name="testscripts.YFPSimulator.MyChoice" />
+		</classes>
+	</test> <!-- Test -->
+</suite> <!-- Suite -->

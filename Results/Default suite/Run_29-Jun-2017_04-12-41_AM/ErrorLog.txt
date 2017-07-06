@@ -1,0 +1,35 @@
+Started InternetExplorerDriver server (32-bit)
+2.42.0.0
+Listening on port 39520
+Jun 29, 2017 4:12:45 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Attempting bi-dialect session, assuming Postel's Law holds true on the remote end
+Jun 29, 2017 4:12:48 AM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+java.io.FileNotFoundException: C:\Users\bpstestr\Desktop\CraftMaven\src\test\resources\Datatables\YFPSimulator.xls (The system cannot find the file specified)
+	at java.io.FileInputStream.open0(Native Method)
+	at java.io.FileInputStream.open(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at java.io.FileInputStream.<init>(Unknown Source)
+	at com.cognizant.framework.ExcelDataAccess.openFileForReading(ExcelDataAccess.java:83)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:156)
+	at com.cognizant.framework.ExcelDataAccess.getRowNum(ExcelDataAccess.java:231)
+	at com.cognizant.Craft.DriverScript.initializeBusinessFlow(DriverScript.java:532)
+	at com.cognizant.Craft.DriverScript.initializeTestScript(DriverScript.java:520)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:154)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:147)
+	at testscripts.YFPSimulator.MyChoice.testRunner(MyChoice.java:40)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)

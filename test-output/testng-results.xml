@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" total="1" passed="0">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="44998" started-at="2017-07-06T07:00:15Z" finished-at="2017-07-06T07:01:00Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="44998" started-at="2017-07-06T07:00:15Z" finished-at="2017-07-06T07:01:00Z">
+      <class name="testscripts.LoginScenario.TestForMarineValidLogin">
+        <test-method status="PASS" signature="setUpTestSuite(org.testng.ITestContext)[pri:0, instance:testscripts.LoginScenario.TestForMarineValidLogin@f2bd5b]" name="setUpTestSuite" is-config="true" duration-ms="406" started-at="2017-07-06T03:00:15Z" finished-at="2017-07-06T03:00:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@138449f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestSuite -->
+        <test-method status="FAIL" signature="testRunner(java.lang.String, com.cognizant.framework.selenium.ExecutionMode, com.cognizant.framework.selenium.Browser, int, int)[pri:0, instance:testscripts.LoginScenario.TestForMarineValidLogin@f2bd5b]" name="testRunner" duration-ms="44795" started-at="2017-07-06T03:00:16Z" data-provider="ValidLoginTestConfigurations" finished-at="2017-07-06T03:01:00Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Instance1]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[LOCAL]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[INTERNET_EXPLORER]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[1]]>
+              </value>
+            </param>
+          </params>
+          <exception class="com.cognizant.framework.FrameworkException">
+            <message>
+              <![CDATA[Error while capturing the screenshot]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[com.cognizant.framework.FrameworkException: Error while capturing the screenshot
+	at com.cognizant.framework.selenium.SeleniumReport.takeScreenshot(SeleniumReport.java:93)
+	at com.cognizant.framework.Report.handleStepInvolvingScreenshot(Report.java:285)
+	at com.cognizant.framework.Report.updateTestLog(Report.java:226)
+	at com.cognizant.Craft.DriverScript.exceptionHandler(DriverScript.java:698)
+	at com.cognizant.Craft.DriverScript.executeCRAFTTestIterations(DriverScript.java:570)
+	at com.cognizant.Craft.DriverScript.executeCraft(DriverScript.java:155)
+	at com.cognizant.Craft.DriverScript.driveTestExecution(DriverScript.java:147)
+	at testscripts.LoginScenario.TestForMarineValidLogin.testRunner(TestForMarineValidLogin.java:33)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:86)
+	at org.testng.internal.Invoker.invokeMethod(Invoker.java:643)
+	at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:820)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:75)
+	at org.testng.internal.TestMethodWithDataProviderMethodWorker.call(TestMethodWithDataProviderMethodWorker.java:14)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.Executors$RunnableAdapter.call(Unknown Source)
+	at java.util.concurrent.FutureTask.run(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- com.cognizant.framework.FrameworkException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRunner -->
+        <test-method status="PASS" signature="setUpTestRunner()[pri:0, instance:testscripts.LoginScenario.TestForMarineValidLogin@f2bd5b]" name="setUpTestRunner" is-config="true" duration-ms="0" started-at="2017-07-06T03:00:16Z" finished-at="2017-07-06T03:00:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpTestRunner -->
+        <test-method status="PASS" signature="tearDownTestSuite()[pri:0, instance:testscripts.LoginScenario.TestForMarineValidLogin@f2bd5b]" name="tearDownTestSuite" is-config="true" duration-ms="220" started-at="2017-07-06T03:01:01Z" finished-at="2017-07-06T03:01:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTestSuite -->
+      </class> <!-- testscripts.LoginScenario.TestForMarineValidLogin -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

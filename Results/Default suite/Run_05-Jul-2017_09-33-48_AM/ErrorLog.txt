@@ -1,0 +1,3 @@
+Started InternetExplorerDriver server (32-bit)
+2.39.0.0
+Listening on port 6822

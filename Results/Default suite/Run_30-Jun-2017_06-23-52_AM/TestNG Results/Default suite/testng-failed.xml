@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test verbose="2" name="Default test">
+    <classes>
+      <class name="com.cognizant.framework.WordDocumentManager"/>
+      <class name="com.cognizant.framework.PDFDocumentManager"/>
+      <class name="com.cognizant.Craft.App"/>
+      <class name="com.cognizant.framework.ExcelReport"/>
+      <class name="com.cognizant.Craft.QcTestRunner"/>
+      <class name="com.cognizant.framework.selenium.CraftDriver"/>
+      <class name="businessComponents.FlightReservationComponents"/>
+      <class name="com.cognizant.Craft.ReusableLibrary"/>
+      <class name="com.cognizant.framework.ExcelDataAccess"/>
+      <class name="pageObjects.UserRegistrationPage"/>
+      <class name="com.cognizant.framework.FrameworkParameters"/>
+      <class name="com.cognizant.framework.selenium.WebDriverFactory"/>
+      <class name="pageObjects.UserRegistrationConfirmationPage"/>
+      <class name="com.cognizant.framework.ReportTheme"/>
+      <class name="pageObjects.MasterPage"/>
+      <class name="runners.Allocator"/>
+      <class name="com.cognizant.Craft.DriverScript"/>
+      <class name="com.cognizant.framework.selenium.RemoteWebDriverUtils"/>
+      <class name="com.cognizant.framework.Settings"/>
+      <class name="com.cognizant.framework.Report"/>
+      <class name="com.cognizant.framework.OnError"/>
+      <class name="com.cognizant.framework.selenium.PerfectoDriverFactory"/>
+      <class name="pageObjects.SelectFlightPage"/>
+      <class name="com.cognizant.framework.ExcelCellFormatting"/>
+      <class name="com.cognizant.framework.ReportThemeFactory"/>
+      <class name="com.cognizant.framework.ReportType"/>
+      <class name="pageObjects.FlightFinderPage"/>
+      <class name="com.cognizant.framework.ReportSettings"/>
+      <class name="com.cognizant.framework.selenium.MobileToolName"/>
+      <class name="com.cognizant.Craft.RESTclient"/>
+      <class name="com.cognizant.framework.ExcelDataAccessforxlsm"/>
+      <class name="com.cognizant.framework.selenium.Browser"/>
+      <class name="com.cognizant.Craft.ParallelRunner"/>
+      <class name="com.cognizant.framework.selenium.ExecutionMode"/>
+      <class name="pageObjects.FlightConfirmationPage"/>
+      <class name="businessComponents.UserRegistrationComponents"/>
+      <class name="com.cognizant.framework.selenium.AppiumDriverFactory"/>
+      <class name="businessComponents.GeneralComponents"/>
+      <class name="com.cognizant.framework.TestParameters"/>
+      <class name="com.cognizant.framework.selenium.MobileExecutionPlatform"/>
+      <class name="com.cognizant.framework.IterationOptions"/>
+      <class name="pageObjects.SignOnPage"/>
+      <class name="com.cognizant.framework.selenium.WebDriverUtil"/>
+      <class name="com.cognizant.framework.selenium.ResultSummaryManager"/>
+      <class name="com.cognizant.framework.selenium.SeleniumReport"/>
+      <class name="com.cognizant.framework.FrameworkException"/>
+      <class name="pageObjects.BookFlightPage"/>
+      <class name="com.cognizant.Craft.CRAFTTestCase"/>
+      <class name="com.cognizant.framework.CraftDataTable"/>
+      <class name="com.cognizant.framework.HtmlReport"/>
+      <class name="runners.QcTestRunner"/>
+      <class name="componentGroups.FlightReservationGroups"/>
+      <class name="businessComponents.GeneralComponentsMobileNative"/>
+      <class name="com.cognizant.framework.selenium.MobileLabsDriverFactory"/>
+      <class name="com.cognizant.framework.Status"/>
+      <class name="com.cognizant.framework.Util"/>
+      <class name="businessComponents.GeneralComponentsMobileWeb"/>
+      <class name="com.cognizant.Craft.ScriptHelper"/>
+      <class name="com.cognizant.framework.CustomXWPFDocument"/>
+      <class name="pageObjects.MarineLogin"/>
+      <class name="runners.ParallelRunner"/>
+      <class name="com.cognizant.framework.selenium.SeleniumTestParameters"/>
+      <class name="com.cognizant.framework.TimeStamp"/>
+      <class name="testscripts.LoginScenario.TestForLoginWithNewlyRegisteredUser"/>
+    </classes>
+  </test> <!-- Default test -->
+  <test name="Default test(failed)">
+    <classes>
+      <class name="testscripts.LoginScenario.TestForLoginWithNewlyRegisteredUser">
+        <methods>
+          <include name="setUpTestRunner"/>
+          <include name="testRunner" invocation-numbers="0"/>
+          <include name="tearDownTestSuite"/>
+          <include name="setUpTestSuite"/>
+        </methods>
+      </class> <!-- testscripts.LoginScenario.TestForLoginWithNewlyRegisteredUser -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
